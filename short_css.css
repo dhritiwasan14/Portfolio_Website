@@ -1,0 +1,395 @@
+body {
+    font-family: "Amatic SC", Arial, Helvetica, sans-serif;
+    background-color: rgb(71, 129, 198);
+}
+#banner {
+    background-image: url(Pictures/background.png);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:2;
+}
+#welcome{
+    width: 300px;
+    padding-left: 30px;
+    color: white;
+    font-size: 35px;
+    position: absolute
+}
+
+
+.nav_element {
+    position: absolute;
+    top:35px;
+    font-family: "Amatic SC";
+    font-size: 20px;
+    color: white;
+}
+.nav_element:hover {
+    color: grey;
+}
+#home {
+    left: 900px;
+}
+#about {
+    left: 900px;
+}
+#projects {
+    left: 1130px;
+}
+#education {
+    left: 1000px;
+}
+.wrapper {
+    position: fixed;
+    margin: 0 auto;
+}
+#contact_info {
+    font-family: "Amatic SC";
+    font-size: 18px;
+    border-width: 1.3px;
+    border-color: white;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 25px;
+    left: 1235px;
+    width: 120px;
+    height: 38px;
+    z-index: 4;
+  }
+  #contact_info:hover {
+    background-color: transparent;
+    color:white;
+  }
+
+.boxes {
+    background-color: rgb(246, 142, 86);
+    position: absolute;
+    top: 300px;
+    height: 120px;
+    width: 100%;
+
+    z-index: 3;
+  }
+  
+.strip {
+    border-width: 1.87px;
+    border-color: rgb(71, 129, 198);
+    border-style: solid;
+    background-color: rgb(71, 129, 198);
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    height: 30px;
+    z-index: 5;
+}
+
+.Rectangle_1 {
+    border-width: 1.87px;
+    border-color: rgb(71, 129, 198);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 310px;
+    top: -110px;
+    width: 809.26px;
+    height: 380.26px;
+    z-index: 6;
+  }
+  
+
+.image-center {
+    position: absolute;
+    left: 150px;
+}
+
+#skills_title {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+#download {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#download:hover {
+    content: url(Pictures/download_black.png);
+}
+
+.download_resume {
+    border-width: 1px;
+    font-family: "Amatic SC";
+    color: white;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    left: 43%;
+    top: 590px;
+    width: fit-content;
+    height: 52px;
+    z-index: 11;
+    font-size: 28px;
+    padding-left: 2em;
+    padding-right: 1em;
+  }
+.download_resume:hover {
+    background-color: white;
+    color: black;
+    content: url(Pictures/download_black.png);
+}
+
+.project_1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 898px;
+    top: -100px;
+    width: 340px;
+    height: 400px;
+    z-index: 6;
+  }
+
+  .project_2 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 495px;
+    top: -100px;
+    width: 340px;
+    height: 400px;
+    z-index: 7;
+  }
+  
+  .project_3 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 93px;
+    top: -100px;
+    width: 340px;
+    height: 400px;
+    z-index: 5;
+  }
+
+.form {
+      padding-top: 2.5em;
+      font-size: 30px;
+      color: white;
+      z-index: 9;
+      position: absolute;
+      left: 32%;
+
+  }
+.form > input {
+    z-index: 9;
+    width: 300px;
+    font-size: 20px;
+    height: 40px;
+    
+
+}
+
+.form > p {
+    z-index: 9;
+}
+
+#message_form {
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    
+}
+
+#submit_form {
+    border-width: 2px;
+    font-family: "Amatic SC";
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    left: 45%;
+    top: 670px;
+    width: fit-content;
+    height: 52px;
+    z-index: 11;
+    font-size: 28px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+#submit_form:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
+
+.education_box {
+    border-width: 1.87px;
+    border-color: rgb(71, 129, 198);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 310px;
+    top: -150px;
+    width: 809.26px;
+    height: 480px;
+    z-index: 6;
+}
+#one {
+    left: 310px;
+}
+
+#two {
+    left: 1440px;
+}
+#three {
+    left: 2570px;
+    margin-right: 310px;
+}
+#education_img {
+    position: absolute;
+    left: 35%;
+}
+#github {
+    width: 2.7em;
+    height: 2.7em;
+    position: absolute;
+    left: 1%;
+    top: 92%;
+}
+
+#github:hover {
+    content: url(Pictures/github-icon-1600_copy.png);
+}
+
+
+#instagram {
+    width: 3em;
+    height: 2.7em;
+    position: absolute;
+    left: 4%;
+    top: 92%;
+}
+
+#instagram:hover {
+    content: url(Pictures/instagram_black.png);
+}
+
+#linked {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+    left: 8%;
+    top: 92.2%;
+}
+
+#linked:hover {
+    content: url(Pictures/linked_black.png);
+}
+
+#facebook {
+    width: 3em;
+    height: 2.5em;
+    position: absolute;
+    left: 11.5%;
+    top: 92.2%;
+}
+
+#facebook:hover {
+    content: url(Pictures/facebook_black.png);
+}
+
+#dp {
+    width: 37%;
+    height: 75%;
+    position: absolute;
+    left: 3%;
+    top: 12%;
+}
+
+#heading {
+    position: absolute;
+    left: 46%;
+    top: 5%;
+}
+
+#intro_descript {
+    position: absolute;
+    left: 46%;
+    top: 25%;
+    right: 2%;
+    font-family: "Oswald";
+}
+#separator {
+    background-color: rgb(71, 129, 198);
+    border-color: rgb(71, 129, 198);
+    height: 100%;
+    width: 1%;
+    position: absolute;
+    left: 43%;
+
+}
+#github {
+    width: 2.7em;
+    height: 2.7em;
+    position: absolute;
+    left: 1%;
+    top: 92%;
+}
+
+#github:hover {
+    content: url(Pictures/github-icon-1600_copy.png);
+}
+
+
+#instagram {
+    width: 3em;
+    height: 2.7em;
+    position: absolute;
+    left: 4%;
+    top: 92%;
+}
+
+#instagram:hover {
+    content: url(Pictures/instagram_black.png);
+}
+
+#linked {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+    left: 8%;
+    top: 92.2%;
+}
+
+#linked:hover {
+    content: url(Pictures/linked_black.png);
+}
+
+#facebook {
+    width: 3em;
+    height: 2.5em;
+    position: absolute;
+    left: 11.5%;
+    top: 92.2%;
+}
+
+#facebook:hover {
+    content: url(Pictures/facebook_black.png);
+}
