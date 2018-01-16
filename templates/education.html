@@ -1,0 +1,72 @@
+<html>
+        <head>
+            <title>Dhriti Wasan</title>
+            <link rel="stylesheet" href="{{url_for('static', filename='styles/styles.css')}}">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+            <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+        </head>
+        <body>
+            <section id = "banner">
+                <div class = "wrapper">
+                    <header>
+                        <h2 id = "welcome" >Resumé &nbsp &middot &nbsp Website</h2>
+                        <a id = "about" class = "nav_element" href = "home.html">About</a>
+                        <a id = "education" class = "nav_element" href = "education.html">Education</a>
+                        <a id = "projects" class = "nav_element" href = "projects.html">Projects</a>
+                        <button id = "contact_info" class = "nav_element" onclick = "inTouch()">Get In Touch</button>
+                        
+                    </header>
+                    
+                </div>
+                <div class = "boxes">
+                    <div class="strip"></div>
+                    <div class = "education_box" id = "one">
+                        <h3 id = "title">Singapore University of Technology and Design (May 2016 to present)</h3>
+                        <p id = "description" >Here, I am currently pursuing Bachelor's in Engineering at the Information 
+                            Science Technology and Design Pillar. I am hoping to join the Artifical Intelligence Track that is offered. </p>
+                            <p id = "description">Expected graduation day:<strong> Aug 2019</strong> &nbsp &nbsp GPA (as of this point): <strong>4.14/5.00</strong>
+                        </p>
+                        <p id ="description">Courses Taken Include:</p>
+                        <ul class = "courses_taken">
+                            <li>Digital World</li>
+                            <li>Computation Structures</li>
+                            <li>Advanced Math | and ||</li>
+                            <li>Introduction to Information Systems and Programming</li>
+                            <li>Modelling the Systems World</li>
+                            <li>Engineering the Physical World</li>
+                        </ul>
+                    </div>
+                    <div class = "education_box" id = "two">
+                            <h3 id = "title">University of California, Berkeley (JUNE 2017 TO AUG 2017)</h3>
+                            <p id = "description">Participated in the Berkeley Summer Sessions along with a select group of students. Represented the university on the trip to network with students across the globe. Studied Computer Science courses: CS61A – Structure and Interpretation of Computer Programs, CS61BL – Data Structures and Programming Methodology.
+                            </p>
+                            <p id ="description">Courses Taken Include:</p>
+                            <ul class = "courses_taken">
+                                <li>Data Structures and Programming Methodology (CS 61BL)</li>
+                                <li>Structures and Interpretations of Computer Programs (CS 61A)
+                                </li>
+                            </ul>
+                        </div>
+                    <div class = "education_box" id = "three">
+                            <h3 id = "title">Smt. Sulochanadevi Singhania School, Thane (JUNE 2014 TO APR 2016)</h3>
+                            <p id = "description" >Grade 11 & 12 (Junior College) under the Indian School Certificate board of education. Percentage = 95.6%</p>
+                            <p id ="description">Courses Taken Include:</p>
+                            <ul class = "courses_taken">
+                                <li>Mathematics</li>
+                                <li>English Literature</li>
+                                <li>Biology</li>
+                                <li>Chemistry</li>
+                                <li>Physics</li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class ="links"><img src="{{url_for('static', filename='github-icon-1600.png')}}" alt="" id = "github" onclick="viewGithub()">
+                            <img src="{{url_for('static', filename='instagram_white.png')}}" id = "instagram" alt="" onclick="viewInstagram()">
+                            <img src="{{url_for('static', filename='linked_white.png')}}" id = "linked" alt="" onclick="viewLinkedIn()">
+                            <img src="{{url_for('static', filename='facebook_white.png')}}" id = "facebook" alt="" onclick="viewFacebook()"></div>
+            </section>
+            
+        </body>
+    </html>

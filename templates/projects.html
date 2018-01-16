@@ -1,0 +1,124 @@
+<html>
+        <head>
+            <title>Dhriti Wasan</title>
+            <link rel="stylesheet" href="{{url_for('static', filename='styles/styles.css')}}">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+            <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        </head>
+        <body>
+            <section id = "banner">
+                <div class = "wrapper">
+                    <nav>
+                            <h2 id = "welcome" >Resumé &nbsp &middot &nbsp Website</h2>
+                            <a id = "about" class = "nav_element" href = "home.html">About</a>
+                            <a id = "education" class = "nav_element" href = "education.html">Education</a>
+                            <a id = "projects" class = "nav_element" href = "projects.html">Projects</a>
+                            <button id = "contact_info" class = "nav_element" onclick = "inTouch()">Get In Touch</button>
+                        
+                    </nav>
+                    
+                </div>
+                <div class = "boxes">
+                    <div class="strip"></div>
+                    <div class = "project_1">
+                        <p id = "title">IoT Fuzzing
+                        </p>
+                        <p id = "description">
+                                Conducting research on IoT fuzzing by detecting anomalies in a device’s response for security purposes. Used statistical classification and machine learning to map the anomalies to CVEs present.
+                                
+                        </p>
+                        <h2 class = "skills" id = "name_skills">Skills:</h2>
+                        <ul id = "list_skills">
+                            <li>Python scapy</li>
+                            <li>Burp Suite</li>
+                            <li>Wireshark</li>
+                            <li>nmap</li>
+                            <li>Classifiers</li>
+                        </ul>
+                    </div> <!-- Karang Guni, IoT competition, Bit-Fighter, iTrust, Android Tourist App, Hackathon-->
+                    <div class = "project_2">
+                            <p id = "title">Recyling System
+                                </p>
+                                <p id = "description">
+                                        Collaborated on an IoT project with 5 other students to build a technological system for the modern form of rag-bone pickers in Singapore, called the KarangGuni. Created an Android Application with an online relational database. Integrated PayPal, Firebase and other APIs to facilitate transactions from the users and the KarangGuni.
+                                        
+                                </p>
+                                <h2 class = "skills" id = "name_skills">Skills:</h2>
+                                <ul id = "list_skills">
+                                    <li>Android</li>
+                                    <li>Firebase</li>
+                                    <li>SQL</li>
+                                </ul>
+                    </div>
+                    <div class = "project_3">
+                            <p id = "title">Gitlet
+                                </p>
+                                <p id = "description">
+                                        A mini Version Control System like Git that is able to store repositories versions locally and perform functions/commands like commit, add, merge, branch, reset, etc. 
+                                        The program uses concepts of Serialization and Hashing. It also optimizes the efficiency by using appropriate data sturctures.
+                                        
+                                </p>
+                                <h2 class = "skills" id = "name_skills">Skills:</h2>
+                                <ul id = "list_skills">
+                                    <li>Java</li>
+                                    <li>Data Structures</li>
+                                </ul>
+                    </div>
+                    <div class = "project_4">
+                            <p id = "title">NightLife<strong>SG</strong>
+                                </p>
+                                <p id = "description">
+                                        An Android Application that provides touristic support regarding the night-life in Singapore. 
+                                        It aims to display location info as well as calculate the best route to the selected tourist spots (via Taxi, Singapore MRT and Walking).
+                                        To calculate the best route, the application also takes in the user inputted cost constraint value (Traveling Salesman Problem).
+                                        
+                                        
+                                </p>
+                                <h2 class = "skills" id = "name_skills">Skills:</h2>
+                                <ul id = "list_skills">
+                                    <li>Android</li>
+                                    <li>Algorithms</li>
+                                    <li>Google Maps API</li>
+                                </ul>
+                    </div>
+                    <div class = "project_5">
+                            <p id = "title">SingTel IoT Competition
+                                </p>
+                                <p id = "description">
+                                        Built an IoT centered system that monitored the cleanliness of toilets and availability of meeting rooms in the hostel
+                                        Created a Ruby on Rails application for the users to access information collected
+                                        Added security measures for the communication between application and Raspberry Pi. 
+                                </p>
+                                <h2 class = "skills" id = "name_skills">Skills:</h2>
+                                <ul id = "list_skills">
+                                    <li>Firebase</li>
+                                    <li>Python RPI Libraries</li>
+                                    <li>Ruby on Rails</li>
+                                </ul>
+                    </div>
+                    <div class = "project_6">
+                            <p id = "title">Google Fake News Hackathon
+                                </p>
+                                <p id = "description">
+                                        Participated in the Hackathon to build an all-in-one system for fact checking.
+                                        Used concepts of machine learning, namely Natural Language Processing and Sentiment Analysis.
+                                        Implemented Blockchain and Bitcoin to facilitate 3rd party fact checking.
+                                </p>
+                                <h2 class = "skills" id = "name_skills">Skills:</h2>
+                                <ul id = "list_skills">
+                                    <li>Python</li>
+                                    <li>Flask</li>
+                                    <li>HTML, CSS</li>
+                                </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class ="links"><img src="{{url_for('static', filename='github-icon-1600.png')}}" alt="" id = "github" onclick="viewGithub()">
+                    <img src="{{url_for('static', filename='instagram_white.png')}}" id = "instagram" alt="" onclick="viewInstagram()">
+                    <img src="{{url_for('static', filename='linked_white.png')}}" id = "linked" alt="" onclick="viewLinkedIn()">
+                    <img src="{{url_for('static', filename='facebook_white.png')}}" id = "facebook" alt="" onclick="viewFacebook()"></div>
+            </section>
+            
+        </body>
+    </html>

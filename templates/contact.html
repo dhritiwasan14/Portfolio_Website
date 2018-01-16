@@ -1,0 +1,44 @@
+<html>
+        <head>
+            <title>Dhriti Wasan</title>
+            <link rel="stylesheet" href="{{url_for('static', filename='styles/short_css.css')}}">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+            <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+            
+        </head>
+        <body>
+            <section id = "banner">
+                <div class = "wrapper">
+                    <header>
+                        <h2 id = "welcome" >Resumé &nbsp &middot &nbsp Website</h2>
+                        <a id = "home" class = "nav_element" href = "home.html">About</a>
+                        <a id = "education" class = "nav_element" href = "education.html">Education</a>
+                        <a id = "projects" class = "nav_element" href = "projects.html">Projects</a>
+                        <button id = "contact_info" class = "nav_element" onclick = "inTouch()">Get In Touch</button>
+                    </header>
+                    
+                </div>
+                <div class = "form">
+                    <form action="contact.html" method="post">
+                        <p>Your name: </p>
+                        <div id = "name">{{form.username(class_='input', id='smaller')}}</div>
+                        <p>Your email: </p>
+                        <div id = "email">{{form.email(class_='input', id= 'smaller')}}</div>
+                        <p>Message:</p>
+                        <div id = "message_form">{{form.message(class_='input', rows='7', cols='60')}}</div>
+                        <button id = "submit_form" class = "download_resume" onclick="submit()">Submit
+                    </button>
+                    </form>
+                </div> 
+                <div class = "boxes">
+                    <div class="strip"></div>
+
+                    </div>
+                </div>
+                    <div class ="links"><img src="{{url_for('static', filename='github-icon-1600.png')}}" alt="" id = "github" onclick="viewGithub()">
+                        <img src="{{url_for('static', filename='instagram_white.png')}}" id = "instagram" alt="" onclick="viewInstagram()">
+                        <img src="{{url_for('static', filename='linked_white.png')}}" id = "linked" alt="" onclick="viewLinkedIn()">
+                        <img src="{{url_for('static', filename='facebook_white.png')}}" id = "facebook" alt="" onclick="viewFacebook()"></div>
+            </section>
+        </body>
+    </html>

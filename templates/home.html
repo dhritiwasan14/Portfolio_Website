@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Dhriti Wasan</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='styles/short_css.css')}}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    <body>
+        <section id = "banner">
+            <div class = "wrapper">
+                <header>
+                    <h2 id = "welcome" >Resumé &nbsp &middot &nbsp Website</h2>
+                    <a id = "about" class = "nav_element" href = "home.html">About</a>
+                    <a id = "education" class = "nav_element" href = "education.html">Education</a>
+                    <a id = "projects" class = "nav_element" href = "projects.html">Projects</a>
+                    <a href = "contact.html"><button id = "contact_info" class = "nav_element">Get In Touch</button></a>
+                    
+                </header>
+                
+            </div>
+            <div class = "boxes">
+                <div class="strip"></div>
+                <div class = "Rectangle_1">
+                    <div id = "separator"></div>
+                    <img src="{{url_for('static', filename='me.png')}}" id="dp" alt="">
+                    <h1 class = "right_intro" id ="heading"> Hello! &nbsp I'm Dhriti Wasan, </h1>
+                    <p class = "right_intro" id = "intro_descript">A second year student at Singapore University of Technology and Design, pursuing my Bachelors in Computer Science Engineering.
+                        <br> <br> Currently employed as a Research Intern at iTrust CyberSecurity Research Facility. <br> <br> Highly motivated and incredibly analytical student looking to thrive in new and challenging environments.</p>
+                </div>
+            </div>
+            <a href = "DHRITI_WASAN.pdf" download="DHRITI_WASAN.pdf"><button id = "img" class = "download_resume">Resumé <img src="{{url_for('static', filename='download.png')}}" id = "download" width = 30px height = 25px alt="">
+            </button></a>
+            <div class ="links"><img src="{{url_for('static', filename='github-icon-1600.png')}}" alt="" id = "github" onclick="viewGithub()">
+                <img src="{{url_for('static', filename='instagram_white.png')}}" id = "instagram" alt="" onclick="viewInstagram()">
+                <img src="{{url_for('static', filename='linked_white.png')}}" id = "linked" alt="" onclick="viewLinkedIn()">
+                <img src="{{url_for('static', filename='facebook_white.png')}}" id = "facebook" alt="" onclick="viewFacebook()"></div>
+        </section>
+    </body>
+</html>
