@@ -102,10 +102,10 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 3px 7px 0px rgba(0, 0, 0, 0.35);
     position: absolute;
-    left: 310px;
-    top: -110px;
-    width: 809.26px;
-    height: 380.26px;
+    left: 22%;
+    top: -7em;
+    width: 50em;
+    height: 23em;
     z-index: 6;
   }
   
