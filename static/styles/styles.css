@@ -102,10 +102,10 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 3px 7px 0px rgba(0, 0, 0, 0.35);
     position: absolute;
-    left: 310px;
-    top: -110px;
-    width: 809.26px;
-    height: 380.26px;
+    left: 22%;
+    top: -7em;
+    width: 50em;
+    height: 23em;
     z-index: 6;
   }
   
@@ -132,39 +132,16 @@ body {
     content: url(Pictures/download_black.png);
 }
 
-.download_resume {
-    border-width: 1px;
-    font-family: "Amatic SC";
-    color: white;
-    background-color: transparent;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-radius: 10px;
-    position: absolute;
-    left: 43%;
-    top: 590px;
-    width: fit-content;
-    height: 52px;
-    z-index: 11;
-    font-size: 28px;
-    padding-left: 2em;
-    padding-right: 1em;
-  }
-.download_resume:hover {
-    background-color: white;
-    color: black;
-    content: url(Pictures/download_black.png);
-}
 
 
 .project_1 {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
     position: absolute;
-    top: -100px;
+    top: -85%;
     width:12%;
     left:3%;
-    height: 400px;
+    height: 350%;
     z-index: 6;
   }
 
@@ -172,10 +149,10 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
     position: absolute;
-    top: -100px;
+    top: -85%;
     width:12%;
     left:19%;
-    height: 400px;
+    height: 350%;
 
     z-index: 7;
   }
@@ -184,21 +161,21 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
     position: absolute;
-    top: -100px;
+    top: -85%;
     width:12%;
     left:35%;
-    height: 400px;
+    height: 350%;
     z-index: 5;
   }
   .project_4 {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
     position: absolute;
-    top: -100px;
+    top: -85%;
     width:12%;
     left:50%;
     margin-left:1%;
-    height: 400px;
+    height: 350%;
     z-index: 6;
   }
 
@@ -206,11 +183,11 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
     position: absolute;
-    top: -100px;
+    top: -85%;
     width: 12%;
     left:66%;
     margin-left:1%;
-    height: 400px;
+    height: 350%;
     z-index: 7;
   }
   
@@ -218,11 +195,11 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35);
     position: absolute;
-    top: -100px;
+    top: -85%;
     left:82%;
     width: 12%;
     margin-left:1%;
-    height: 400px;
+    height: 350%;
     z-index: 5;
   }
 
@@ -233,10 +210,9 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 3.92px 3.08px rgba(0, 0, 0, 0.35),0px 3px 7px 0px rgba(0, 0, 0, 0.35);
     position: absolute;
-    left: 310px;
-    top: -150px;
-    width: 809.26px;
-    height: 480px;
+    top: -150%;
+    width: 25%;
+    height: 400%;
     z-index: 6;
 }
 #one {

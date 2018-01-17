@@ -53,5 +53,8 @@ def contact():
         print(result)
         return redirect('/')
 
+def viewGithub():
+    print('hurts sometime')
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0")

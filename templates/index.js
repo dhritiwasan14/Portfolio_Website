@@ -8,10 +8,12 @@ function submit() {
 }
 
 function inTouch() {
+    
     location.replace("contact.html");
 }
 
 function viewLinkedIn() {
+    console.log('linked in');
     location.replace("https://www.linkedin.com/in/dhriti-wasan-568ba6156");
 }
 
