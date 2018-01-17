@@ -25,7 +25,7 @@ body {
     position: absolute;
     top:35px;
     font-family: "Amatic SC";
-    font-size: 20px;
+    font-size: 1.25em;
     color: white;
 }
 
@@ -34,15 +34,15 @@ body {
 }
 
 #about {
-    left: 900px;
+    left: 45em;
 }
 
 #projects {
-    left: 1130px;
+    left: 57em;
 }
 
 #education {
-    left: 1000px;
+    left: 50em;
 }
 
 .wrapper {
@@ -62,7 +62,7 @@ body {
     border-radius: 10px;
     position: absolute;
     top: 25px;
-    left: 1235px;
+    left: 70em;
     width: 120px;
     height: 38px;
     z-index: 4;
